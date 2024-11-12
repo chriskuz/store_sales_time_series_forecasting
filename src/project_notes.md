@@ -21,14 +21,40 @@ Here will be stored notes on the project that can be better used as a more detai
 
 # Cleaning
 
-**GLOBAL MANIPULATION**
+**GLOBAL MANIPULATION** <font color="teal">[SUSTAINED FEATURE MANIPULATION]</font>
 
 - Dated dfs (`training`, `transx`, `oil`, `holidays`) had their `date` columns converted to datetime from sting.
 
 **LOCAL MANIPULATION** <font color="yellow">[CONSIDER REDUCTION OR REWORK MORE SOPHISTICATION]</font>
 
-- creation of `days_diff` for these dataframes around each dataframes' 
+- Creation of `days_diff` for these dataframes around each dataframes' difference of dates. 
+    - All dfs apart from `holidays` showcased minimal `days_diff` in their `date` column spread. 
+    - `holidays` received attention first to understand its column composition. 
 
+# Observation of the `Holidays` section
+
+- There are some notes on aggregation. Generally the notes will need to be cleaned
+- Holidays have similar subset prefix `description`s with a number denoting the days post holidays. 
+    - This column will neeed more nominal interpretation vs ordinal interpretation (using ordered numbers to denote categories will mistreat the information in the column). 
+- A breakdown of some features' counts and unique counts are provided. Broken on `locale`. 
+- A showcasing and discussion on holiday `description`s not coinciding across `locale`, meaning there isn't an apparant overlap in information (somewhat lightly addresses duplicates). 
+- Some quick notes
+     - Possible redundante
+- Multiple tables generated for some reason. <font color="red">[NOT SURE WHAT WAS HAPPENING HERE]</font>
+
+
+
+
+Possible futures
+- Suggestion to explore `type` next...
+- Imprtantly should check what are the event `types`
+- Most importantly, shrinking the `"National"` `locale` values could be useful in preventing overabundance for feature increase. 
+
+- `type`s and others
+    - Not sure how to address `transferred`. If I cannot infer what it means, I'm going to drop it with the belief that I shouldn't be putting features into my model that I cannot explain. It would impair the study as it could be a column that creates a lot of overfitting (and we wouldn't really know until we start iterating to get a best guess). <font color="yellow">[CONSIDER IF DROPPING RELATED COLUMNS ARE SUSTAINED FEATURE OR NOT.]</font>
+
+
+# Transactions and Training
 
 # IDEAS
 
