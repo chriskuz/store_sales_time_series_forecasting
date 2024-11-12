@@ -77,3 +77,7 @@ Possible futures
     - oil prices/day
     - num_holidays/day
     
+
+# QUESTIONS
+
+- How do I address plotting? How should I store it and move it around? I think I should generate plots in the sections corresponding understanding and and then generate them in an organized area later or otherwise reorganize entirely. 
