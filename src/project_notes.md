@@ -39,7 +39,10 @@ Here will be stored notes on the project that can be better used as a more detai
 - A breakdown of some features' counts and unique counts are provided. Broken on `locale`. 
 - A showcasing and discussion on holiday `description`s not coinciding across `locale`, meaning there isn't an apparant overlap in information (somewhat lightly addresses duplicates). 
 - Some quick notes
-     - Possible redundante
+     - Possible redundant columns like `locale` showcasing nations and regional holidays. For efficient, we could keep it and omit the true `locale_names`. For added granularity, we could remove such and use the `locale_name` to sustain this breakdown as "National" corresponds already to the `locale_name` of "Ecaudor". However, doing such will also remove the recognition of the "Local" breakdown. 
+     - We will have to drop the `days_diff` column before merges as it will not be consistent on any merge. 
+     - Will remove the `+n` from some names on holidays. 
+     
 - Multiple tables generated for some reason. <font color="red">[NOT SURE WHAT WAS HAPPENING HERE]</font>
 
 
