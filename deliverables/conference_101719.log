@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.1)  8 NOV 2024 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.1)  22 NOV 2024 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,134 +271,58 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 57.
 
+/Users/chriskuzemka/Documents/store_sales_time_series_forecasting/deliverables/conference_101719.tex:15: LaTeX Error: There's no line here to end.
 
-LaTeX Warning: Reference `AA' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Reference `SCM' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Reference `eq' on page 1 undefined on input line 122.
-
-
-LaTeX Warning: Reference `eq' on page 1 undefined on input line 122.
-
-
-LaTeX Warning: Reference `eq' on page 1 undefined on input line 122.
-
-
-LaTeX Warning: Reference `eq' on page 1 undefined on input line 123.
-
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 127.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-
-LaTeX Warning: Citation `b7' on page 2 undefined on input line 176.
-
-
-LaTeX Warning: Reference `fig' on page 2 undefined on input line 212.
-
-
-LaTeX Warning: File `fig1.png' not found on input line 232.
-
-
-/Users/chriskuzemka/Documents/store_sales_time_series_forecasting/deliverables/conference_101719.tex:232: Package pdftex.def Error: File `fig1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.232 \centerline{\includegraphics{fig1.png}}
-                                             
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.15 {
+      \footnotesize \textsuperscript{*}Note: Sub-titles are not captured in ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 243.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 243.
- [2]
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+/Users/chriskuzemka/Documents/store_sales_time_series_forecasting/deliverables/conference_101719.tex:18: Too many }'s.
+l.18 }
+      
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-LaTeX Warning: Citation `b1' on page 3 undefined on input line 256.
+)
+Runaway argument?
+{\IEEEauthorblockN {1\textsuperscript {st} By: Christopher Kuzemka} \IEEEauthorblockA \ETC.
+! File ended while scanning use of \author.
+<inserted text> 
+                \par 
+<*> ..._forecasting/deliverables/conference_101719
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
+! Emergency stop.
+<*> ..._forecasting/deliverables/conference_101719
+                                                  
+*** (job aborted, no legal \end found)
 
-LaTeX Warning: Citation `b2' on page 3 undefined on input line 257.
-
-
-LaTeX Warning: Citation `b3' on page 3 undefined on input line 258.
-
-
-LaTeX Warning: Citation `b3' on page 3 undefined on input line 258.
-
-
-LaTeX Warning: Citation `b3' on page 3 undefined on input line 258.
-
-
-LaTeX Warning: Citation `b3' on page 3 undefined on input line 259.
-
-
-LaTeX Warning: Citation `b4' on page 3 undefined on input line 267.
-
-
-LaTeX Warning: Citation `b5' on page 3 undefined on input line 268.
-
-
-LaTeX Warning: Citation `b6' on page 3 undefined on input line 273.
-
-
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-[3] (./conference_101719.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 4310 strings out of 474116
- 67660 string characters out of 5743683
- 1947187 words of memory out of 5000000
- 26618 multiletter control sequences out of 15000+600000
- 609174 words of font info for 137 fonts, out of 8000000 for 9000
+ 4127 strings out of 474116
+ 64740 string characters out of 5743683
+ 1925187 words of memory out of 5000000
+ 26469 multiletter control sequences out of 15000+600000
+ 584445 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,667b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (3 pages, 133205 bytes).
-PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 57i,5n,65p,648b,153s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
