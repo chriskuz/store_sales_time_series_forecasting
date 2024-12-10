@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.1)  22 NOV 2024 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.1)  8 DEC 2024 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -291,14 +291,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-/Users/chriskuzemka/Documents/store_sales_time_series_forecasting/deliverables/conference_101719.tex:18: Too many }'s.
-l.18 }
-      
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-)
+))
 Runaway argument?
 {\IEEEauthorblockN {1\textsuperscript {st} By: Christopher Kuzemka} \IEEEauthorblockA \ETC.
 ! File ended while scanning use of \author.
@@ -318,11 +311,11 @@ you'd better type `E' or `X' now and fix your file.
 
  
 Here is how much of TeX's memory you used:
- 4127 strings out of 474116
- 64740 string characters out of 5743683
+ 4122 strings out of 474116
+ 64680 string characters out of 5743683
  1925187 words of memory out of 5000000
- 26469 multiletter control sequences out of 15000+600000
- 584445 words of font info for 97 fonts, out of 8000000 for 9000
+ 26464 multiletter control sequences out of 15000+600000
+ 583391 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,648b,153s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,4n,65p,648b,153s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
